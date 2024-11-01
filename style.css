@@ -1,0 +1,134 @@
+/* Reset básico para remover margens e paddings padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos do Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Estilos para o título principal */
+h1 {
+    color: #3498db;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilos para o parágrafo */
+p {
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 600px;
+}
+
+/* Estilos para a imagem */
+.imagem-site {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Estilos para o botão */
+.botao-site {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+/* Efeito de hover no botão */
+.botao-site:hover {
+    background-color: #2980b9;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #3498db;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+}
+
+.navbar li {
+    display: inline; /* Coloca os itens na mesma linha */
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+.navbar a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto mais grosso */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+.rodape {
+    background-color: #2c3e50; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Espaço interno */
+    position: relative; /* Para posicionar corretamente */
+    bottom: 0; /* Fixa na parte inferior */
+    width: 100%; /* Para que ocupe toda a largura */
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    background-color: #3498db;
+    padding: 15px;
+    text-align: center; /* Centraliza a barra de navegação */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove as bolinhas da lista */
+    padding: 0; /* Remove o padding da lista */
+}
+
+.navbar li {
+    display: inline; /* Coloca os itens na mesma linha */
+    margin: 0 15px; /* Espaço entre os itens */
+}
+
+/* Estilos para o corpo */
+.conteudo-centralizado {
+    display: flex; /* Usando flexbox para centralizar */
+    flex-direction: column; /* Os elementos ficam em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Faz com que ocupe toda a altura da tela */
+}
+
+/* Estilos para a imagem */
+.imagem-site {
+    max-width: 80%; /* Reduz o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Espaço acima da imagem */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
+
+
